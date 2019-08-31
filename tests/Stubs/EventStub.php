@@ -8,7 +8,7 @@ class EventStub extends Event
 {
 	public function getName()
 	{
-		return 'EventStub';
+		return 'OrderRegistered';
 	}
 
 
