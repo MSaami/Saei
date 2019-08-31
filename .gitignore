@@ -1,0 +1,4 @@
+tags
+.phpunit*
+composer.lock
+vendor/

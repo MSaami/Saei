@@ -1,2 +1,2 @@
-# saei
-A event-dispatcher package by pure PHP
+# Saei
+A event-dispatcher package with pure PHP
