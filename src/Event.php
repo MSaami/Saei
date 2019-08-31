@@ -1,6 +1,9 @@
 <?php
-namespace App\Core\Events;
+
+namespace Msaami\Saei;
+
 use ReflectionClass;
+
 abstract class Event
 {
 

@@ -1,10 +1,10 @@
 <?php
-namespace App\Tests\Unit;
+namespace Saei\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use App\Tests\Stubs\EventStub;
-use App\Tests\Stubs\EventStubNoName;
-use App\Core\Events\Dispatcher;
+use Saei\Stubs\EventStub;
+use Saei\Stubs\EventStubNoName;
+use Msaami\Saei\Dispatcher;
 
 
 class EventTest extends TestCase
@@ -13,12 +13,8 @@ class EventTest extends TestCase
 	public function can_get_event_name()
 	{
 		$event = new EventStub();
+
 		$this->assertEquals('OrderRegistered' , $event->getName());
-		//$disptacher = new Dispatcher();
-
-		//$this->assertEmpty($dispatcher->getListeners());
-
-		//$this->assertInternalTypes('array' , $disptacher->getListeners());
 	}
 
 

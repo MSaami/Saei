@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Tests\Stubs;
+namespace Saei\Stubs;
 
-use App\Core\Events\Listener;
-use App\Core\Events\Event;
+use Msaami\Saei\Listener;
+use Msaami\Saei\Event;
 
 class ListenerStub extends Listener
 {

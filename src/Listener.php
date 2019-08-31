@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Core\Events;
+namespace Msaami\Saei;
 
-use App\Core\Events\Event;
+use Msaami\Saei\Event;
 
 
 abstract class Listener

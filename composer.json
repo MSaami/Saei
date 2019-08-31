@@ -4,13 +4,13 @@
 	},
 	"autoload":{
 		"psr-4" : {
-			"App\\":"app"
+			"Msaami\\Saei\\":"src"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"App\\Tests\\" : "tests",
-			"App\\Stubs\\" : "stubs"
+			"Saei\\Tests\\" : "tests",
+			"Saei\\Stubs\\" : "stubs"
 		}
 	}
 }

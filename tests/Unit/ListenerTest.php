@@ -4,8 +4,8 @@ namespace App\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 use TypeError;
-use App\Tests\Stubs\ListenerStub;
-use App\Tests\Stubs\EventStub;
+use Saei\Stubs\ListenerStub;
+use Saei\Stubs\EventStub;
 
 class ListenerTest extends TestCase
 {
@@ -28,8 +28,6 @@ class ListenerTest extends TestCase
 		$listener->handle(new EventStub());
 		
 		$this->addToAssertionCount(1);
-
-
 
 	}
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Tests\Stubs;
+namespace Saei\Stubs;
 
-use App\Core\Events\Event;
+use Msaami\Saei\Event;
 
 class EventStub extends Event
 {
