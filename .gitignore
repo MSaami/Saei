@@ -2,3 +2,4 @@ tags
 .phpunit*
 composer.lock
 vendor/
+*.swp
