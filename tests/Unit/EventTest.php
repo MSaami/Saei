@@ -1,8 +1,10 @@
 <?php
 namespace App\Tests\Unit;
+
 use PHPUnit\Framework\TestCase;
 use App\Tests\Stubs\EventStub;
 use App\Tests\Stubs\EventStubNoName;
+use App\Core\Events\Dispatcher;
 
 
 class EventTest extends TestCase
@@ -12,6 +14,11 @@ class EventTest extends TestCase
 	{
 		$event = new EventStub();
 		$this->assertEquals('OrderRegistered' , $event->getName());
+		//$disptacher = new Dispatcher();
+
+		//$this->assertEmpty($dispatcher->getListeners());
+
+		//$this->assertInternalTypes('array' , $disptacher->getListeners());
 	}
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\ListenerTest;
+namespace App\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 use TypeError;
