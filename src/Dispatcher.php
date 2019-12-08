@@ -32,7 +32,7 @@ class Dispatcher
 	 * @param string $event
 	 * @param Listener $listener
 	 */
-	public function addListener(string $event , Listener $listener)
+	public function addListener(string $event ,                          Listener $listener)
 	{
 		return $this->listeners[$event][] = $listener;
 	}
